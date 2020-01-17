@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onProfileClick(MenuItem view){
-        Toast.makeText(this, "Edit profile", Toast.LENGTH_SHORT).show();
+        Intent profile = new Intent(this, EditProfileActivity.class);
+        startActivity(profile);
     }
 
     public void onSettingsClick(MenuItem view){
