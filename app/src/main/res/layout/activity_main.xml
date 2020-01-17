@@ -30,7 +30,8 @@
             android:layout_marginLeft="100dp"
             android:layout_marginTop="33dp"
             android:layout_marginRight="100dp"
-            android:text="Request SOS" />
+            android:onClick="requesteSos"
+            android:text="@string/request_sos" />
 
         <Button
             android:id="@+id/button2"
@@ -39,7 +40,7 @@
             android:layout_marginLeft="100dp"
             android:layout_marginTop="33dp"
             android:layout_marginRight="100dp"
-            android:text="Request Repair" />
+            android:text="@string/request_repair" />
 
     </LinearLayout>
 

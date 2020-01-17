@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CarMechanic</string>
+    <string name="app_name">Car Mechanic</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -9,4 +9,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="request_sos">Request SOS</string>
+    <string name="request_repair">Request Repair</string>
+    <string name="title_activity_request_sos">Request SOS</string>
 </resources>
