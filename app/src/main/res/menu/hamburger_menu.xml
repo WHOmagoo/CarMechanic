@@ -15,7 +15,13 @@
                 android:id="@+id/menuItemWebsite"
                 android:onClick="onProfileClick"
                 android:title="Edit Profile"></item>
-            <item android:title="Switch view" />
+            <item
+                android:onClick="onSwitchViewClick"
+                android:title="Switch view" />
+
+            <item android:id="@+id/menuItemReview"
+                android:onClick="reviewClick"
+                android:title="Review Page"/>
 
         </menu>
 

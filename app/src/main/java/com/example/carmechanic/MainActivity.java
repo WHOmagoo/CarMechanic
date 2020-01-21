@@ -60,4 +60,16 @@ public class MainActivity extends AppCompatActivity {
     public void onSettingsClick(MenuItem view){
         Toast.makeText(this, "Edit Settings", Toast.LENGTH_SHORT).show();
     }
+
+    public void onSwitchViewClick(MenuItem item) {
+        Intent mechanicView = new Intent(this, MechanicHomeView.class);
+        startActivity(mechanicView);
+        finish();
+    }
+
+    public void reviewClick(MenuItem item) {
+        Intent mechanicView = new Intent(this, CustomersReviewPage.class);
+        startActivity(mechanicView);
+        finish();
+    }
 }

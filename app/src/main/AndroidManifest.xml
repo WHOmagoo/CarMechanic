@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditProfileActivity"></activity>
+        <activity android:name=".MechanicsReviewPage"></activity>
+        <activity android:name=".CustomersReviewPage" />
+        <activity android:name=".IgnoredScreen" />
+        <activity android:name=".MechanicHomeView" />
+        <activity android:name=".EditProfileActivity" />
         <activity android:name=".NotifyingActivity" />
         <activity
             android:name=".RequestSOS"
